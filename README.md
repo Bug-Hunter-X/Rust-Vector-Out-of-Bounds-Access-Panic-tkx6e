@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: accessing a vector element without checking whether the index is within the vector's bounds.  The example shows how to use `get()` with unwrapping, which can lead to panics, and the safer alternative using `get()` with pattern matching.
